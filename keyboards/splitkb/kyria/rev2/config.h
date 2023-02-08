@@ -17,10 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define NO_ACTION_LAYER
 #define DISABLE_LEADER
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID    0x8D1D

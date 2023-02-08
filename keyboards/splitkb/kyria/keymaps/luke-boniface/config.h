@@ -27,4 +27,3 @@
 // Lets you roll mod-tap keys
 #define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_TERM 250
-#undef NO_ACTION_TAPPING
