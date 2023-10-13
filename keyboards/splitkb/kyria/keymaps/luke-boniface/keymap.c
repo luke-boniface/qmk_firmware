@@ -14,10 +14,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 layer_state_t layer_state_set_user(layer_state_t state) {
     switch (get_highest_layer(state)) {
     case 4:
-        SEND_STRING(SS_TAP(X_F17));
+        SEND_STRING(SS_LCTL(SS_TAP(X_F17)));
         break;
     case 0:
-        SEND_STRING(SS_TAP(X_F16));
+        SEND_STRING(SS_LCTL(SS_TAP(X_F16)));
     break;
     }
   return state;
